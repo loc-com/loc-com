@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Chậu Tưởng Ký`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Trương Hữu Lộc`,
+      summary: `Homo sapiens.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://lộc.com/`,
     social: {
-      twitter: `kylemathews`,
+      deathemperor: `deathemperor`,
     },
   },
   plugins: [
