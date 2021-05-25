@@ -6,7 +6,7 @@ module.exports = {
       summary: `Homo sapiens.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://lộc.com/`,
+    siteUrl: `https://google.com/`,
     social: {
       deathemperor: `deathemperor`,
     },
