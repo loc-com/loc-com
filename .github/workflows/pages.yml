@@ -2,23 +2,23 @@ name: GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12.x'
-    - run: yarn
-    - run: |
-        git config --global user.email "<your-email-address>"
-        git config --global user.name "<your-name>"
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - run: yarn
+      - run: |
+          git config --global user.email "loctruongh@gmail.com"
+          git config --global user.name "Trương Hữu Lộc"
 
-    - run: yarn deploy
-      env:
-        PA_TOKEN: ${{ secrets.PA_TOKEN }}
-        CI: true
+      - run: yarn deploy
+        env:
+          PA_TOKEN: ${{ secrets.PA_TOKEN }}
+          CI: true
