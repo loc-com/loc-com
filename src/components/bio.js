@@ -47,7 +47,7 @@ const Bio = () => {
           Trích xuất bởi <strong>{author.name}</strong>{" "}
           {author?.summary || null}
           {` `}
-          <a href={`https://facebook.com/${social?.deathemperor || ``}`}>
+          <a href={`https://facebook.com/${social?.facebook || ``}`}>
             Hãy follow tôi trên Facebook
           </a>
         </p>
