@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Chậu Tưởng Ký`,
+    title: `Just me`,
     author: {
-      name: `Trương Hữu Lộc`,
-      summary: `Homo sapiens.`,
+      name: `L`,
+      summary: ``,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://google.com/`,
     social: {
-      facebook: `deathemperor`,
+      facebook: ``,
     },
   },
   plugins: [
